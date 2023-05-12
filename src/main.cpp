@@ -183,6 +183,14 @@ void LCD_reflash(int en);
 void savewificonfig();
 void readwificonfig();
 void deletewificonfig();
+void getCityCode();
+void getCityWeater();
+void saveParamCallback();
+void scrollBanner();
+void imgAnim();
+void weaterData(String *cityDZ,String *dataSK,String *dataFC);
+String week();
+String monthDay();
 
 
 /* *****************************************************************
